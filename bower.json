@@ -1,0 +1,25 @@
+{
+  "name": "viaajaxlite",
+  "version": "0.0.1",
+  "authors": [
+    "Marcelo Gutierrez <marceloaldo@gmail.com>"
+  ],
+  "description": "Wrapper for jQuery.ajax",
+  "keywords": [
+    "ajax",
+    "jQuery"
+  ],
+  "homepage": "",
+  "main": "jquery.viaajaxlite.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.1"
+  }
+}
