@@ -1,0 +1,24 @@
+{
+  "name": "viaajaxlite",
+  "version": "1.0.0",
+  "description": "Wrapper for jQuery.ajax",
+  "main": "jquery.viaajaxlite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonDeath/viaajaxlite.git"
+  },
+  "keywords": [
+    "ajax",
+    "jQuery",
+    "library"
+  ],
+  "author": "Marcelo Gutierrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nonDeath/viaajaxlite/issues"
+  },
+  "homepage": "https://github.com/nonDeath/viaajaxlite"
+}
