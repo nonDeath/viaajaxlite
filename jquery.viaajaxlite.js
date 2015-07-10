@@ -44,6 +44,9 @@
                 },
                 beforeSend: function() {
                     $(options.target).html('<div class="progress progress-striped active"><div style="width: 45%" class="progress-bar"></div></div>');
+                },
+                error: function() {
+                    return $.isFunction(callback) && callback.call(self, [data, textStatus, jqXHR]);
                 }
             });
         }
